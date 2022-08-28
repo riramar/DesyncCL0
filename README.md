@@ -55,13 +55,12 @@ Connection: close
 # Example
 ```
 $ ./DesyncCL0.py
-    ____                            
-   / __ \___  _______  ______  _____
-  / / / / _ \/ ___/ / / / __ \/ ___/
- / /_/ /  __(__  ) /_/ / / / / /__  
-/_____/\___/____/\__, /_/ /_/\___/  
+    ____                             ________    ____ 
+   / __ \___  _______  ______  _____/ ____/ /   / __ \
+  / / / / _ \/ ___/ / / / __ \/ ___/ /   / /   / / / /
+ / /_/ /  __(__  ) /_/ / / / / /__/ /___/ /___/ /_/ / 
+/_____/\___/____/\__, /_/ /_/\___/\____/_____/\____/  
                 /____/              
-
 version 0.0.1
 usage: DesyncCL0 [-h] [-s SMUGGLEDREQUESTLINE] [-t TIMEOUT] [-u USER_AGENT] [-d | --debug | --no-debug] URL
 DesyncCL0: error: the following arguments are required: URL
@@ -69,13 +68,12 @@ DesyncCL0: error: the following arguments are required: URL
 Below the output testing the this lab https://portswigger.net/web-security/request-smuggling/browser/client-side-desync/lab-browser-cache-poisoning-via-client-side-desync.
 ```
 $ ./DesyncCL0.py https://0a7f005703d1bcd0c05a8252006200c5.web-security-academy.net/../
-    ____                            
-   / __ \___  _______  ______  _____
-  / / / / _ \/ ___/ / / / __ \/ ___/
- / /_/ /  __(__  ) /_/ / / / / /__  
-/_____/\___/____/\__, /_/ /_/\___/  
+    ____                             ________    ____ 
+   / __ \___  _______  ______  _____/ ____/ /   / __ \
+  / / / / _ \/ ___/ / / / __ \/ ___/ /   / /   / / / /
+ / /_/ /  __(__  ) /_/ / / / / /__/ /___/ /___/ /_/ / 
+/_____/\___/____/\__, /_/ /_/\___/\____/_____/\____/  
                 /____/              
-
 version 0.0.1
 Testing URL: https://0a7f005703d1bcd0c05a8252006200c5.web-security-academy.net/../
 Testing for CL.0 vulnerability...
@@ -84,13 +82,12 @@ WARNING! Back-end server interpreted the body of the POST request as the start o
 If you want to see the raw requests and response from the tool you can use the -d flag.
 ```
 $ ./DesyncCL0.py https://0a7f005703d1bcd0c05a8252006200c5.web-security-academy.net/../ -d
-    ____                            
-   / __ \___  _______  ______  _____
-  / / / / _ \/ ___/ / / / __ \/ ___/
- / /_/ /  __(__  ) /_/ / / / / /__  
-/_____/\___/____/\__, /_/ /_/\___/  
+    ____                             ________    ____ 
+   / __ \___  _______  ______  _____/ ____/ /   / __ \
+  / / / / _ \/ ___/ / / / __ \/ ___/ /   / /   / / / /
+ / /_/ /  __(__  ) /_/ / / / / /__/ /___/ /___/ /_/ / 
+/_____/\___/____/\__, /_/ /_/\___/\____/_____/\____/  
                 /____/              
-
 version 0.0.1
 Testing URL: https://0a7f005703d1bcd0c05a8252006200c5.web-security-academy.net/../
 Testing for CL.0 vulnerability...
