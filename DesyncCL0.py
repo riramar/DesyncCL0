@@ -95,7 +95,7 @@ def cl0_check(URL, SRL,user_agent, timeout, debug):
 	if debug:
 		print(">>>>> requestRoot")
 		print(requestRoot)
-		print(">>>>> requestRoot")
+		print("<<<<< requestRoot")
 	sock = connect(URL, timeout)
 	httpresponseRoot, bodyRoot = send_request(sock, requestRoot.encode('utf-8'))
 	sock.close()
@@ -119,7 +119,7 @@ def cl0_check(URL, SRL,user_agent, timeout, debug):
 	if debug:
 		print(">>>>> requestDesync")
 		print(requestDesync)
-		print(">>>>> requestDesync")
+		print("<<<<< requestDesync")
 	sock = connect(URL, timeout)
 	httpresponseDesync, bodyDesync = send_request(sock, requestDesync.encode('utf-8'))
 	if debug:
